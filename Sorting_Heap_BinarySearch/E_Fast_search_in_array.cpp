@@ -1,11 +1,11 @@
 //You are given an array of n integers a_1, a_2, ..., a_n
-//Your task is to answer on the queries of the following type: How many iterms are between l and r?
+//Your task is to answer on the queries of the following type: How many items are between l and r?
 
 //Input:
 // The first line of the input contains n - the length of the array (1 <= n <= 10^5)
 // The second line contains n integers a_1, ..., a_n (-10^9 <= a_i <= 10^9)
 // The third line contains integer k - number of queries (1 <= k <= 10^5)
-// The following k lines contain a paor of integers (l,r) - query, described above (-10^9 <= l <= r <= 10^9)
+// The following k lines contain a pair of integers (l,r) - query, described above (-10^9 <= l <= r <= 10^9)
 
 //Output:
 // The output must consist of k integers - responses for the queries
