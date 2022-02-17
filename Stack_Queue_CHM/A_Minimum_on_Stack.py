@@ -1,3 +1,36 @@
+# You have to implement the data structure that supports the following operations:
+# 1. 1 x - add x to an end of the data structure
+# 2. 2 - retrieve the last element from the data structure
+# 3. 3 -  find the minimal element in the data structure
+
+# Input:
+#  The first line of the input contains one integer n (1 <= n <= 10^6) - the number of operations.
+#  Next n lines contain the description of operations, one per line. The argument x in an operation
+#  of the first type lies in [-10^9, 10^9]. It is guaranteed that before retrieval the data structures
+#  is not empty.
+
+# Output:
+#  Output the result for each operation of the third type, one per line.
+
+# Example:
+#  Input:
+#   8
+#   1 2
+#   1 3
+#   1 -3
+#   3
+#   2
+#   3
+#   2
+#   3
+
+#  Ouput:
+#  -3
+#   2
+#   2
+
+
+
 class Stack(object):
   def __init__(self):
     self.array = []
